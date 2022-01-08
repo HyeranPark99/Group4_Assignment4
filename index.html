@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>  
+    <script src="script.js" defer></script>
+    <Link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header"> 
+        <h2 id="header_page">TTP Assignment4 - Group4</h2>     
+    </div>
+    <section id="body">
+        <main>
+
+            <!-- arg buttons  -->
+            <h3 id="arg_button">Argument Buttons</h3>
+            <div id= "arg_buttons">
+            <h3 id="showText">
+                This text will be changed when you click buttons               
+            </h3>            
+            <button onclick="myfunction()" id="right-button1">BUTTON1</button>
+            <button onclick="myfunction2()"id="right-button2">BUTTON2</button>
+            </div>
+            <!-- end of arg buttons -->
+            
+
+
+            <!-- don't hover over me -->
+            <div id="dnotH">
+                <h2 id="hovertext">Don't hover over me!</h2>
+            </div>
+              <!-- end of hover -->
+
+
+            <!-- userinfo and submit button -->
+            <h3 id="form_title">HTML Forms</h3>
+            <div clas = "htmlForm">                
+                <form class="info_form">
+                    <label for="Uname">User Name:</label><br>
+                    <input type="text" id="userName_box"  placeholder="user name"><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" id="email_box" name="email" value="e-mail"><br>
+
+                    <label for="passWord">Password:</label><br>
+                    <input type="passWord" id="passWord" name="password" value="password"><br><br>
+
+                    <button type="button" onclick="getInputValue();" id="form-button">Submit</button>   
+
+                    <h1 id="displayT">Status</h1>
+                </form>
+                
+            </div>
+            <!-- end of userinfo and submit button -->
+
+
+
+            <!-- The Volume of the sphere  -->
+            <h3 id="volume_title">The volume of the sphere</h3>
+            <div class="sphere" >                
+                <form class="radious_form">
+                    <label for="radious_label">Enter Raius:</label><br>
+                    <input type="text" id="r_box"  placeholder="Radius(inche)"><br>
+                    <button type="button" onclick="getVolum();" id="radius-button">Submit</button>    
+                </form>
+            </div>
+            <!-- end of volume of the sphere -->
+
+        </main>
+    </section>
+    <div class="footer">
+    </div>
+    
+</body>
+</html>

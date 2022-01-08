@@ -1,0 +1,125 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+#arg_button{
+    padding-top:30px;
+    margin-bottom: 5px;
+}
+
+#showText{
+    width: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 14px 20px;
+    background-color: rgb(240, 183, 92);
+}
+
+#right-button1{
+    font-weight: bold;
+    padding: 14px 20px;
+    margin-right:5px;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: none;
+    background-color:rgb(230, 209, 185);;
+    
+}
+#right-button2{
+    font-weight: bold;
+    padding: 14px 20px;
+    margin-right:5px;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: none;
+    background-color:rgb(224, 130, 102);;
+    
+}
+
+
+#dnotH{
+    margin-top: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 14px 20px;
+    background-color: rgb(240, 92, 104);
+}
+
+
+#form_title{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.info_form{
+    border-radius: 5px;
+    background-color: rgb(178, 226, 210);
+    padding: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right:auto;
+ 
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#form-button {
+    width: 100%;
+    background-color: rgb(50, 206, 154);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+  }
+
+
+  #volume_title{
+    margin-top: 50px;
+    margin-bottom: 5px;  
+  }
+
+
+  .radious_form{    
+    border-radius: 5px;
+    background-color: rgb(143, 156, 229);
+    padding: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  #radius-button{
+    width: 100%;
+    background-color: rgb(55, 70, 155);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large; 
+  }
